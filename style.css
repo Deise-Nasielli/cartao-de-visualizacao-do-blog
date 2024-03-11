@@ -1,0 +1,49 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    margin: 0 auto;
+    padding: 50px;
+    position: static;  
+}
+
+main{
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto ;
+    min-width: 320px;
+    max-width: 600px;
+}
+
+section{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+button{
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    color: black;
+    padding: 3px 5px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 12px;
+    display: inline-block;
+    
+}
+
+.botao p{
+    font-size: 10px;
+}
+
+.images img{
+    width: 100%;
+}
+
+.info p{
+    color: hsl(0,0%,50%);
+}
+
+
+h4::before{
+    content: url(images/image-avatar.webp);
+}
+
