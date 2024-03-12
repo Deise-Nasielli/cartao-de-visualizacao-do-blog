@@ -1,19 +1,17 @@
 body{
     background-color: hsl(47, 88%, 63%);
-    margin: 0 auto;
-    padding: 50px;
-    position: static;  
+   
 }
 
 main{
     background-color: white;
     padding: 20px;
-    margin: 0 auto ;
-    min-width: 320px;
-    max-width: 600px;
+    margin-inline: auto ;
+    min-width: 200px;
+    max-width: 350px;
 }
 
-section{
+section {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
 }
@@ -43,7 +41,7 @@ button{
 }
 
 
-h4::before{
+.avatar p::before{
     content: url(images/image-avatar.webp);
 }
 
